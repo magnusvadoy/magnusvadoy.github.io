@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    /*color: #222;*/
     font-size: 1em;
     line-height: 1.4;
 }
@@ -100,11 +100,40 @@ textarea {
 html {
    background: url('../img/galaxy.jpg') no-repeat center center fixed;
    background-size: cover;
+   font-family: 'Encode Sans Condensed', sans-serif;
+
 }
-
-
-
-
+@media (min-width: 700px) {
+    .container {
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -350px;
+        left: 50%;
+        top: 50%;
+    }
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.row div {
+    background: rgba(0, 0, 0, 0.2);
+}
+.row h1, .row h2, .row h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1 {
+    font-size: 300%;
+}
+.box-text {
+    margin-left: 10px;
+}
+#content {
+    display: none;
+}
 
 
 
