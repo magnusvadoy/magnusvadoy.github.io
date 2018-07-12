@@ -118,27 +118,22 @@ a {
     color: white;
     text-decoration: none;
 }
-.row div {
-    background: rgba(0, 0, 0, 0.2);
-}
-.row h1, .row h2, .row h3 {
+h1, h2, h3 {
     color: rgb(255, 255, 255);
     text-align: center;
 }
 h1 {
     font-size: 300%;
 }
-.box-text {
-    margin-left: 10px;
-}
 #content {
     display: none;
 }
-
-
-
-
-
+.row div {
+    background: rgba(0, 0, 0, 0.2);
+}
+.box-text {
+    margin-left: 10px;
+}
 
 
 
