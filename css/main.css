@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 
 html {
-   background: url('../img/alpine.jpg') no-repeat center center fixed;
+   background: url('../img/alpine-min.jpg') no-repeat center center fixed;
    background-size: cover;
    font-family: 'Roboto Mono', monospace;
    color: rgb(85, 85, 85);
