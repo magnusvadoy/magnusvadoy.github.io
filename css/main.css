@@ -98,46 +98,28 @@ textarea {
    ========================================================================== */
 
 html {
-   background: url('../img/galaxy.jpg') no-repeat center center fixed;
+   background: url('../img/alpine.jpg') no-repeat center center fixed;
    background-size: cover;
-   font-family: 'Encode Sans Condensed', sans-serif;
-
+   font-family: 'Roboto Mono', monospace;
+   color: rgb(85, 85, 85);
 }
-@media (min-width: 700px) {
-    .container {
-        position: absolute;
-        width: 700px;
-        height: 500px;
-        margin-top: -250px;
-        margin-left: -350px;
-        left: 50%;
-        top: 50%;
-    }
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 a {
-    color: white;
+    color: rgb(85, 85, 85);
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 h1, h2, h3 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-h1 {
-    font-size: 300%;
-}
-#content {
-    display: none;
-}
-.row div {
-    background: rgba(0, 0, 0, 0.2);
+    font-weight: normal;
 }
 .box-text {
     margin-left: 10px;
 }
-
-
-
-
 
 
 /* ==========================================================================
